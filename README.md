@@ -22,7 +22,7 @@ While it's pretty barebones, it does a lot of the annoying config for you. The f
 - `moti` for animations
 - Expo SDK 53
 - Next.js 15
-- React Navigation 7
+- Expo Router
 - React 19 (read more below)
 - React Compiler
 
