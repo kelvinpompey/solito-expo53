@@ -18,12 +18,8 @@
     "web:prod:serve": "yarn workspace next-app serve",
     "postinstall": "yarn check-tamagui && yarn build",
     "build": "yarn workspaces foreach --all --exclude next-app run build",
-    "upgrade:tamagui": "yarn up '*tamagui*'@latest '@tamagui/*'@latest",
-    "upgrade:tamagui:canary": "yarn up '*tamagui*'@canary '@tamagui/*'@canary",
-    "check-tamagui": "tamagui check",
     "test": "vitest run",
-    "test:watch": "vitest",
-    "prepare": "husky"
+    "test:watch": "vitest"
   },
   "resolutions": {
     "react": "19.0.0",
