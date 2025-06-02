@@ -5,8 +5,7 @@
     "composite": true,
     "jsx": "react-jsx",
     "paths": {
-      "app/*": ["./packages/app/*"],
-      "@my/ui/*": ["./packages/ui/*"]
+      "app/*": ["./packages/app/*"]
     }
   },
   "references": []
