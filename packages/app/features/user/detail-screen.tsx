@@ -1,14 +1,13 @@
-import { Text, View } from 'react-native'
+import { View, Text, Pressable } from 'react-native'
 import { useRouter } from 'solito/navigation'
 
-export function UserDetailScreen({ id }: { id: string }) {
+export function UserDetailScreen() {
   const router = useRouter()
-  if (!id) {
-    return null
-  }
   return (
-    <View>
-      <Text>User Detail</Text>
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Pressable onPress={() => router.back()}>
+        <Text>👈 Go Home</Text>
+      </Pressable>
     </View>
   )
 }

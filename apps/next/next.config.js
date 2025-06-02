@@ -74,6 +74,7 @@ module.exports = {
     'solito',
     'react-native-reanimated',
     'moti',
+    'expo-modules-core',
     'react-native-gesture-handler',
   ],
 
